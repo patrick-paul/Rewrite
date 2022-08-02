@@ -1,0 +1,113 @@
+body {
+  background-color: #cc3366;
+}
+.sam {
+  position: absolute;
+  top: 5%;
+  left: 10%;
+}
+.sam:hover {
+  position: absolute;
+  top: 4%;
+  left: 10%;
+  transition: 0.5s;
+}
+h1 {
+  font-size: 30px;
+  font-family: Segoe Script;
+  color: gold;
+  position: absolute;
+  top: 21%;
+  left: 9%;
+}
+.Home {
+  font-family: Segoe Print;
+  font-size: 25px;
+  color: #00ffff;
+  position: absolute;
+  top: 5%;
+  left: 85%;
+  text-decoration: none;
+}
+.Home:hover {
+  color: orange;
+  cursor: pointer;
+  transition: 0.5s;
+}
+h2 {
+  position: absolute;
+  top: 20%;
+  left: 35%;
+  font-family: Segoe Script;
+  font-size: 35px;
+}
+.samson {
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+.lip {
+  font-family: Comic Sans MS;
+  font-size: 25px;
+  position: absolute;
+  top: 36%;
+  left: 47%;
+}
+.gum {
+  font-family: Comic Sans MS;
+  color: gold;
+  text-decoration: none;
+}
+span {
+  font-family: cursive;
+  color: gold;
+  text-decoration: none;
+}
+.tes {
+  color: #ffffff;
+  position: absolute;
+  top: 140%;
+  left: 13%;
+}
+.facebook {
+  height: 100px;
+  position: absolute;
+  top: 125%;
+  left: 15%;
+}
+.facebook:hover {
+  height: 100px;
+  position: absolute;
+  top: 124%;
+  left: 15%;
+  transition: 0.5s;
+}
+.instergram {
+  height: 100px;
+  position: absolute;
+  top: 125%;
+  left: 25%;
+}
+.instergram:hover {
+  height: 100px;
+  position: absolute;
+  top: 124%;
+  left: 25%;
+  transition: 0.5s;
+}
+
+h3 {
+  position: absolute;
+  top: 180%;
+  left: 30%;
+  font-family: Tahoma;
+  font-size: 25px;
+  color: cyan;
+}
+.san {
+  position: absolute;
+  top: 185%;
+}
+#sim {
+  color: #3399cc;
+}

@@ -1,0 +1,34 @@
+body{
+	font-size: 30px;
+	font-family:Cambria Math;
+	color: white;
+	background-color: #3399cc; 
+}
+
+#kan{
+	text-align: center;
+}
+#button{
+	padding: 5px;
+	background-color: #3399cc;
+	border: 1px , solid ;
+	border-color: cyan;
+	border-radius: 30px; 
+	font-family: Segoe Print Regular;
+	font-size: 20px;
+	font-style: bold;
+	color: gold;
+	position: absolute;
+	top: 70%;
+	left: 43%;
+	display: block;
+}
+#button:hover {
+	color: #ffff00;
+	background-color: grey;
+	border-radius: 5px;
+	padding: 7px;
+	position: absolute;
+	top: 69%;
+	transition: 0.5s;
+}

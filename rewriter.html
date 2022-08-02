@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Re - Writer</title>
+    <link rel="stylesheet" type="text/css" href="style/rewriter.css" />
+  </head>
+  <body>
+    <div id="kan">
+      <img src="img/pen.png" />
+
+      <p id="printer1">.</p>
+
+      <h2>Welcome To re-Writer!</h2>
+
+      <h3>Lets re-Write What You Want To Write!</h3>
+
+      <form>
+        <input
+          type="button"
+          name=""
+          value="Start Process!"
+          id="button"
+          onclick="window.location.href = 'verification.html';"
+        />
+      </form>
+    </div>
+    <script type="text/javascript">
+      var Username = prompt("Please Enter Your Name!", "");
+
+      document.getElementById("printer1").innerHTML = "Hello" + " " + Username;
+    </script>
+  </body>
+</html>

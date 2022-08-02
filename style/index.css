@@ -1,0 +1,60 @@
+#hey {
+  background-color: #cc3366;
+}
+
+#StartUp {
+  position: absolute;
+  top: 40%;
+  left: 45%;
+  display: block;
+}
+#StartUp:hover {
+  position: absolute;
+  top: 39%;
+  left: 45%;
+  transition: 0.5s;
+}
+
+#sam {
+  position: absolute;
+  top: 13%;
+  left: 40%;
+  display: none;
+}
+#kin {
+  color: white;
+  font-family: Comic Sans MS;
+  font-size: 30px;
+  font-style: bold;
+  text-align: center;
+  position: absolute;
+  left: 23%;
+  top: 50%;
+  line-height: 45px;
+  display: none;
+}
+
+#button {
+  padding: 5px;
+  background-color: #cc3366;
+  border: 1px, solid;
+  border-color: cyan;
+  border-radius: 30px;
+  font-family: Segoe Print Regular;
+  font-size: 20px;
+  font-style: bold;
+  color: gold;
+  position: absolute;
+  top: 80%;
+  left: 43%;
+  display: none;
+}
+#button:hover {
+  color: #ffff00;
+  background-color: grey;
+  border-radius: 5px;
+  padding: 7px;
+  position: absolute;
+  top: 79%;
+  transition: 0.5s;
+}

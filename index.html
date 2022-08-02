@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Index</title>
+    <link rel="stylesheet" type="text/css" href="style\index.css" />
+  </head>
+  <body id="hey">
+    <img src="img\patrick.png" title="Patrick Paul" id="sam" />
+
+    <h1 id="kin">
+      <span class="h1">Hi, Thank You For Starting Up The re-Write App!</span>
+      <br />
+      <span class="h2"> My Name Is Patrick Paul,</span> <br />
+      <span class="h3"> And I Am The Creator Of re-Write App. </span>
+    </h1>
+
+    <a href="rewriter.html" title="Move To re-Writer"
+      ><input
+        type="button"
+        value="Get Started!"
+        id="button"
+        onmouseout="document.getElementById('button').style.transition = 0.5 + 's'"
+    /></a>
+
+    <img
+      src="img\switch.png"
+      title="Start Up"
+      id="StartUp"
+      onClick="creep();"
+      onmouseout="document.getElementById('StartUp').style.transition = 0.5 + 's';"
+    />
+
+    <script type="text/javascript">
+      function creep() {
+        // body...
+        var x = document.getElementById("sam");
+        var y = document.getElementById("kin");
+        var z = document.getElementById("button");
+        x.style.display = "block";
+        y.style.display = "block";
+        z.style.display = "block";
+
+        var d = document.getElementById("StartUp");
+        d.style.display = "none";
+      }
+    </script>
+  </body>
+</html>

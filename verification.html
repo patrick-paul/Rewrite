@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Verification</title>
+    <link rel="stylesheet" type="text/css" href="style/verification.css" />
+    <meta charset="uft-8" />
+  </head>
+  <body onload="document.getElementById('din').innerHTML = text">
+    <h1 id="vin">This Is Your Output!</h1>
+    <div id="gif"></div>
+
+    <div id="ham">
+      <h1 class="him">Lets Verify!</h1>
+
+      <h2 class="him">Is This What You Want Re-Write?</h2>
+
+      <p id="din" class="go him"></p>
+
+      <p class="queen him">
+        If Yes, Click The 'Yes' Button Down Below To Continue!
+        <br />
+        <br />
+        <span class="him"> OR </span>
+        <br />
+        <br />
+        If No, Click The 'No' Button Down Below To Re-type Your Message Again!
+      </p>
+      <form>
+        <input
+          type="button"
+          class="him"
+          title="Move To The Next Level"
+          value="Yes"
+          id="mic1"
+          onclick="sam(); fin(); vin();"
+          onmouseout="document.getElementById('mic1').style.transition = 0.5 + 's' "
+        />
+          <input
+            type="button"
+            class="him"
+            value="No"
+            id="mic2"
+            onclick="window.location.href = 'verification.html';"
+            onmouseout="document.getElementById('mic2').style.transition = 0.5 + 's' "
+        />
+      </form>
+      <script type="text/javascript" src="js\universal.js">
+      </script>
+    </div>
+  </body>
+</html>
